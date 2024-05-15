@@ -1,0 +1,21 @@
+```activate virtual environment
+  ASUS@Chairo MINGW64 /d/EOD-Summary
+  $ source .eod/Scripts/activate
+  (.eod) 
+```
+
+```create django project
+  py django-admin startproject summary
+```
+
+```create moduler app in the django project 
+  py manage.py startapp summary
+```
+
+```start server
+  py manage.py runserver 
+``
+
+{
+    "summary": "Based on the books you have read, here is a summary of the data:\n\nTotal number of books read: 11\n\nTitles of the books:\n1. A Light in the Attic\n2. Tipping the Velvet\n3. Soumission\n4. Sharp Objects\n5. Sapiens: A Brief History of Humankind\n6. The Requiem Red\n7. The Dirty Little Secrets of Getting Your Dream Job\n8. The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull\n9. The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics\n10. The Black Maria\n11. Starving Hearts (Triangular Trade Trilogy, #1)\n\nTotal cost of all books: £389.52\n\nAverage price per book: £35.41\n\nMost expensive book: Sapiens: A Brief History of Humankind (£54.23)\n\nLeast expensive book: Starving Hearts (Triangular Trade Trilogy, #1) (£13.99)\n\nI hope this summary helps! Let me know if you need any more information."
+}
